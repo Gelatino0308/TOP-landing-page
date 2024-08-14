@@ -127,11 +127,28 @@ a, .hero-desc {
 .info-img div {
     flex: 1;
     border: 4px solid #3882F6;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 /* quote section */
 
 .quotes {
     background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px 376px;
+    color: #1F2937;
+}
+
+.person {
+    text-align: right;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
