@@ -135,20 +135,24 @@ a, .hero-desc {
 .quotes {
     background-color: #E5E7EB;
     flex-direction: column;
-    padding: 100px 376px;
-    color: #1F2937;
-}
-
-.person {
-    text-align: right;
-    padding-right: 40px;
-    font-weight: bold;
-    font-size: 20px;
+    align-items: center;
+    padding: 100px 0 100px;
     color: #1F2937;
 }
 
 .quote {
+    flex-wrap: wrap;
+    width: 760px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.person {
+    width: 760px;
+    text-align: right;
+    padding-right: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1F2937;
 }
