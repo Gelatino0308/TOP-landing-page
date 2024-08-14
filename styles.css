@@ -82,3 +82,40 @@ a, .hero-desc {
     align-self: stretch;
     color: white;
 }
+
+/* information section */
+
+.gallery {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 90px;
+    gap: 50px;
+}
+
+.info-header {
+    width: 1000px;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-images {
+    height: 220px;
+    width: 800px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-img {
+    flex-direction: column;
+    text-align: center;
+    width: 160px;
+    gap: 10px;
+}
+
+.info-img div {
+    flex: 1;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
