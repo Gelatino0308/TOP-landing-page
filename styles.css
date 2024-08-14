@@ -10,6 +10,18 @@ body {
     flex-direction: column;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 120px;
+    font-size: 15px;
+}
+
+
 /* hero section */
 
 a, .hero-desc {
@@ -34,7 +46,8 @@ a, .hero-desc {
 .info-img, 
 .quotes, 
 .action, 
-.action-box {
+.action-box, 
+.footer {
     display: flex;
 }
 
@@ -80,17 +93,6 @@ a, .hero-desc {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-}
-
-button {
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    padding: 5px 10px;
-    width: 120px;
-    font-size: 15px;
 }
 
 .hero-img {
@@ -199,5 +201,13 @@ button {
 }
 
 .action-box .signup-btn {
-    border: 2px solid white;
+    border: 2px solid #F9FAF8;
+}
+
+
+.footer {
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
