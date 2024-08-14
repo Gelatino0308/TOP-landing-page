@@ -22,7 +22,19 @@ a, .hero-desc {
     background-color: #1F2937;
 }
 
-.hero, .hero-header, .header-links, .hero-content, .hero-text, .hero-img, .gallery, .info-header, .info-images, .info-img, .quotes, .action {
+.hero, 
+.hero-header, 
+.header-links, 
+.hero-content, 
+.hero-text, 
+.hero-img, 
+.gallery, 
+.info-header, 
+.info-images, 
+.info-img, 
+.quotes, 
+.action, 
+.action-box {
     display: flex;
 }
 
@@ -70,7 +82,7 @@ a, .hero-desc {
     color: #F9FAF8;
 }
 
-.signup-btn {
+button {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
@@ -78,6 +90,7 @@ a, .hero-desc {
     border-radius: 8px;
     padding: 5px 10px;
     width: 120px;
+    font-size: 15px;
 }
 
 .hero-img {
@@ -100,7 +113,6 @@ a, .hero-desc {
 }
 
 .info-header {
-    width: 1000px;
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
@@ -141,7 +153,6 @@ a, .hero-desc {
 }
 
 .quote {
-    flex-wrap: wrap;
     width: 760px;
     font-size: 36px;
     font-style: italic;
@@ -155,4 +166,38 @@ a, .hero-desc {
     font-weight: bold;
     font-size: 20px;
     color: #1F2937;
+}
+
+
+/* action call section */
+
+.action {
+    padding: 100px 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 60px 120px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.action-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.action-desc {
+    color: #F9FAF8;
+}
+
+.action-box .signup-btn {
+    border: 2px solid white;
 }
