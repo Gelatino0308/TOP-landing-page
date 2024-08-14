@@ -4,6 +4,12 @@
     font-family: Roboto, 'Segoe UI';
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* hero section */
 
 a, .hero-desc {
@@ -90,6 +96,7 @@ a, .hero-desc {
     align-items: center;
     padding: 40px 0 90px;
     gap: 50px;
+    /* height: 450px; */
 }
 
 .info-header {
@@ -101,10 +108,12 @@ a, .hero-desc {
 }
 
 .info-images {
-    height: 220px;
-    width: 800px;
+    flex: 1;
+    /* height: 220px; */
+    /* width: 800px; */
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info-img {
@@ -112,10 +121,17 @@ a, .hero-desc {
     text-align: center;
     width: 160px;
     gap: 10px;
+    height: 230px;
 }
 
 .info-img div {
     flex: 1;
     border: 4px solid #3882F6;
     border-radius: 8px;
+}
+
+/* quote section */
+
+.quotes {
+    background-color: #E5E7EB;
 }
