@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto, 'Segoe UI';
+}
+
+/* hero section */
+
+a, .hero-desc {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero, .footer{
+    background-color: #1F2937;
+}
+
+.hero, .hero-header, .header-links, .hero-content, .hero-text, .hero-img, .gallery, .info-header, .info-images, .info-img, .quotes, .action {
+    display: flex;
+}
+
+.hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 100px;
+    gap: 80px;
+}
+
+.hero-header {
+    width: 1000px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+.hero-content {
+    width: 1000px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.hero-text {
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 120px;
+}
+
+.hero-img {
+    background-color: grey;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    color: white;
+}
